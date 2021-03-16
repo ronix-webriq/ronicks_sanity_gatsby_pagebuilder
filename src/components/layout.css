@@ -52,7 +52,9 @@ template {
 }
 a {
   background-color: transparent;
+  text-decoration: none;
   -webkit-text-decoration-skip: objects;
+  color: #333;
 }
 a:active,
 a:hover {
@@ -490,6 +492,7 @@ th {
 }
 li {
   margin-bottom: calc(1.45rem / 2);
+  list-style-type: none;
 }
 ol li {
   padding-left: 0;
